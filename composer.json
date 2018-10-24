@@ -1,0 +1,16 @@
+{
+    "name": "leonardo/php-mvc-school",
+    "authors": [
+        {
+            "name": "Leonardo Diniz Souza",
+            "email": "leodinsouza@yahoo.com.br"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app",
+            "Framework\\": "vendor/framework"
+        }
+    }
+}
