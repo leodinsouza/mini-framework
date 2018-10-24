@@ -1,17 +1,8 @@
 <?php
 
 namespace App\models;
+use Framework\model\Table;
 
-class Cliente{
-    protected $db;
-
-    public function __construct(\PDO $db)
-    {
-        $this->db = $db;
-    }
-
-    public function all(){
-        $query = "select * from clientes";
-        return $this->db->query($query);
-    }
+class Cliente extends Table{
+    protected $table = "clientes";
 }
