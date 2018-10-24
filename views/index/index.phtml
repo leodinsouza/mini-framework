@@ -1,1 +1,3 @@
-INDEX
+<?php foreach($this->view->client as $client){ 
+    echo "<p>{$client['id']} - {$client['nome']}</p>";
+}
